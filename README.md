@@ -4,11 +4,10 @@
 
 If you love using React Native Awesome Gallery and would like to show your appreciation, you can support the project by buying me a coffee. Your support helps me keep the project alive and continuously improving. Every little bit counts!
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/pavelbabenko)
 
 <div style="text-align: center;">
   <h1 align="center">React Native Awesome Gallery</h1>
-  <h3 align="center">Photos gallery powered by Reanimated v3 and react-native-gesture-handler</h3>
+  <h3 align="center">Photos gallery powered by Reanimated v4 and react-native-gesture-handler</h3>
 </div>
 
 <table style='width:100%;'>
@@ -37,15 +36,24 @@ If you love using React Native Awesome Gallery and would like to show your appre
 
 ## Installation
 
-> **_Note:_** Starting from v0.3.6 using Reanimated v3 is required
+> **_Note:_** This package targets Reanimated 4 and the React Native New Architecture.
 
-First you have to follow installation instructions of [Reanimated v3](https://docs.swmansion.com/react-native-reanimated/) and [react-native-gesture-handler](https://docs.swmansion.com/react-native-gesture-handler/)
+First follow the installation instructions for
+[React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/)
+and [react-native-gesture-handler](https://docs.swmansion.com/react-native-gesture-handler/).
+
+Make sure your app also installs `react-native-worklets` and follows the
+official
+[Reanimated 4 installation guide](https://docs.swmansion.com/react-native-reanimated/docs/fundamentals/getting-started/).
 
 ```sh
 yarn add react-native-awesome-gallery
 ```
 
-Expo is supported since SDK 40. More information [here](https://docs.expo.io/versions/latest/sdk/reanimated/)
+Expo SDK 55 is supported by the example app in this repository. More generally,
+make sure your Expo SDK and React Native version are compatible with the official
+[Reanimated 4 support matrix](https://docs.swmansion.com/react-native-reanimated/docs/guides/compatibility/)
+and New Architecture requirements.
 
 ## Usage
 
