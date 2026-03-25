@@ -1,5 +1,5 @@
 {
-  "name": "react-native-awesome-gallery",
+  "name": "@benschac/react-native-awesome-gallery",
   "version": "0.4.3",
   "description": "Awesome gallery powered by Reanimated v4",
   "main": "lib/commonjs/index",
@@ -38,16 +38,17 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pavelbabenko/react-native-awesome-gallery.git"
+    "url": "git+https://github.com/benschac/react-native-awesome-gallery.git"
   },
-  "author": "pavelbabenko <pavelbabenko01@gmail.com> (https://github.com/pavelbabenko)",
+  "author": "benschac <benschac@gmail.com> (https://github.com/benschac)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pavelbabenko/react-native-awesome-gallery/issues"
+    "url": "https://github.com/benschac/react-native-awesome-gallery/issues"
   },
-  "homepage": "https://github.com/pavelbabenko/react-native-awesome-gallery#readme",
+  "homepage": "https://github.com/benschac/react-native-awesome-gallery#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "devDependencies": {
     "@babel/core": "^7.26.0",

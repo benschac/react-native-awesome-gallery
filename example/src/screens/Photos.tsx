@@ -1,10 +1,9 @@
 import {
-  RouteProp,
   useNavigation,
   useRoute,
   useIsFocused,
-  NavigationProp,
 } from '@react-navigation/native';
+import type { NavigationProp, RouteProp } from '@react-navigation/native';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import {
   StatusBar,
@@ -13,10 +12,11 @@ import {
   TouchableOpacity,
   View,
 } from 'react-native';
-import AwesomeGallery, {
+import AwesomeGallery from '@benschac/react-native-awesome-gallery';
+import type {
   GalleryRef,
   RenderItemInfo,
-} from 'react-native-awesome-gallery';
+} from '@benschac/react-native-awesome-gallery';
 import * as React from 'react';
 import type { NavParams } from '../navigation/types';
 import { Image } from 'expo-image';

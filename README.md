@@ -1,4 +1,4 @@
-[![npm version](https://badge.fury.io/js/react-native-awesome-gallery.svg)](https://badge.fury.io/js/react-native-awesome-gallery)
+[![npm version](https://badge.fury.io/js/%40benschac%2Freact-native-awesome-gallery.svg)](https://badge.fury.io/js/%40benschac%2Freact-native-awesome-gallery)
 
 ## Support
 
@@ -47,7 +47,7 @@ official
 [Reanimated 4 installation guide](https://docs.swmansion.com/react-native-reanimated/docs/fundamentals/getting-started/).
 
 ```sh
-yarn add react-native-awesome-gallery
+yarn add @benschac/react-native-awesome-gallery
 ```
 
 Expo SDK 55 is supported by the example app in this repository. More generally,
@@ -60,7 +60,7 @@ and New Architecture requirements.
 Check out an [example folder](./example) for example with Expo Image
 
 ```js
-import Gallery from 'react-native-awesome-gallery';
+import Gallery from '@benschac/react-native-awesome-gallery';
 
 // ...
 
@@ -119,7 +119,7 @@ return (
 ## Methods
 
 ```js
-import Gallery, { GalleryRef } from 'react-native-awesome-gallery';
+import Gallery, { GalleryRef } from '@benschac/react-native-awesome-gallery';
 
 // ...
 
