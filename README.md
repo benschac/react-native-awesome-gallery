@@ -108,7 +108,7 @@ return (
 | Prop                                                             | Description                                                                                                                    | Type       |
 |------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|------------|
 | onSwipeToClose()                                                 | Fired when user swiped to top/bottom                                                                                           | `Function` |
-| onTranslationYChange(translationY: number, shouldClose: boolean) | `'worklet';` Fired when user is swiping vertically to close the gallery                                                        | `Worklet`  |
+| onTranslationYChange(translationY: number, shouldClose: boolean) | Fired when user is swiping vertically to close the gallery                                                                     | `Function` |
 | onTap()                                                          | Fired when user tap on image                                                                                                   | `Function` |
 | onDoubleTap(toScale: number)                                     | Fired when user double tap on image                                                                                            | `Function` |
 | onLongPress()                                                    | Fired when long press is detected                                                                                              | `Function` |
