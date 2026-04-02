@@ -1,6 +1,6 @@
 {
   "name": "@benschac/react-native-awesome-gallery",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "description": "Awesome gallery powered by Reanimated v4",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -26,7 +26,12 @@
     "typescript": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "prepare": "bob build",
+    "pack:dry-run": "npm pack --dry-run --cache .npm-cache",
+    "publish:npm": "npm publish --access public --cache .npm-cache",
+    "publish:dry-run": "npm publish --dry-run --access public --cache .npm-cache",
     "release": "release-it",
+    "release:npm": "npm_config_cache=.npm-cache release-it --no-github.release",
+    "release:npm:dry": "npm_config_cache=.npm-cache release-it --dry-run --ci --npm.skipChecks --no-github.release --no-git.requireCleanWorkingDir",
     "example": "yarn --cwd example",
     "pods": "cd example && pod-install --quiet",
     "bootstrap": "yarn example && yarn && yarn pods"
